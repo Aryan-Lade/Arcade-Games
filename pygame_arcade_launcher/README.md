@@ -1,35 +1,6 @@
-# Arcade Games
+# Pygame Arcade Launcher
 
 A collection of classic arcade games built with Pygame, featuring a unified launcher interface.
-
-## Project Overview
-
-This repository contains a modular arcade game launcher with multiple classic games implemented in Python using Pygame. Each game is self-contained within its own directory, making it easy to add new games or modify existing ones.
-
-## Getting Started
-
-### Prerequisites
-
-- Python 3.6 or higher
-- Pygame 2.1.0 or higher
-
-### Installation
-
-1. Clone this repository:
-   ```
-   git clone https://github.com/yourusername/Arcade-Games.git
-   cd Arcade-Games
-   ```
-
-2. Install the required dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
-
-3. Run the launcher:
-   ```
-   python pygame_arcade_launcher/main.py
-   ```
 
 ## Games Included
 
@@ -87,6 +58,50 @@ pygame_arcade_launcher/
 └── README.md                  # Project documentation
 ```
 
+## How to Run
+
+1. Make sure you have Python and Pygame installed:
+   ```
+   pip install pygame
+   ```
+
+2. Run the launcher:
+   ```
+   python main.py
+   ```
+
+## Controls
+
+### Launcher
+- Use mouse to select games
+- ESC to quit
+
+### Space Invaders
+- LEFT/RIGHT: Move ship
+- SPACE: Shoot
+- ESC: Return to launcher
+
+### Tetris
+- LEFT/RIGHT: Move piece
+- UP: Rotate piece
+- DOWN: Soft drop
+- SPACE: Hard drop
+- ESC: Return to launcher
+
+### Car Racing
+- Arrow keys: Control car
+- SPACE: Restart after game over
+- ESC: Return to launcher
+
+### Multiplayer Snake
+- Player 1: WASD keys
+- Player 2: Arrow keys
+- P: Pause game
+- R: Restart game
+- 1: Switch to single player
+- 2: Switch to two players
+- ESC: Return to launcher
+
 ## Adding New Games
 
 To add a new game:
@@ -98,15 +113,13 @@ To add a new game:
 
 The game will automatically appear in the launcher.
 
-## Contributing
+## Future Improvements
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+- High score tracking
+- Game settings and configuration
+- Sound effects and music
+- More games!
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-
-- Pygame community for the excellent game development library
-- Classic arcade game designers for the inspiration
+This project is open source and available under the MIT License.
